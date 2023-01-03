@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  padding: 1rem;
+}
+
+.areaRating {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 400px;
+  height: auto;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 6rem;
+}
+
+.areaRating img{
+  display: flex;
+  justify-content: start;
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  background-color: hsl(213, 19%, 21%);
+  border-radius: 50%;
+}
+
+.areaText h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.areaText p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1.5rem;
+}
+
+.areaBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btns {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background: hsl(213, 19%, 21%);
+  color: hsl(217, 12%, 63%);
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.ativo {
+  background: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btns:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+}
+
+#btnSubmit:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+#btnSubmit {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
