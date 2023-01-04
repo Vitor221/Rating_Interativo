@@ -46,7 +46,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.areaBtn {
+#areaBtn {
   display: flex;
   justify-content: center;
   align-items: center;
